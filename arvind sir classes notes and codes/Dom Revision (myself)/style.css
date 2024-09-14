@@ -1,0 +1,43 @@
+/* *{}
+
+#test{}
+
+.class{}
+
+tagName{}
+
+
+/* ================================================== */
+/* complex selctor => combinator selector */
+
+/* .class + #test ~ button{}  */
+
+
+
+
+#container{
+    border: 2px solid red;
+    padding: 20px;
+}
+
+#container > .test {
+    border: none;
+    background-color: blue;
+    color: white;
+
+}
+
+
+.test + #child{
+    color: red;
+}
+
+
+.test ~ #child{
+    color: red;
+}
+
+
+
+
+

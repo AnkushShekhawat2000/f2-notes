@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1D23;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    gap:70px;
+    
+}
+
+.app-tittle{
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 40px;
+display: flex;
+}
+
+.timer-bar{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 849px;
+height: 132px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #34344A;
+}
+
+.clock, .msg-txt{
+color: #FFF;
+font-family: Roboto;
+font-style: normal;
+line-height: normal;
+}
+
+.time-desc{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.show-time{
+font-size: 48px;
+font-weight: 500;
+}
+
+.set-btn{
+display: flex;
+width: 124px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 26px;
+background: #F0F757;
+justify-content: center;
+align-items: center;
+
+color: #34344A;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+
+}
+
+
+.current-timer{
+    display: flex;
+color: white;
+width: 413px;
+height: 66px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #39393E;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.msg-txt{
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+}

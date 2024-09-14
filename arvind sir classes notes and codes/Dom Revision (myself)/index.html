@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        .container{
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid red;
+        }
+        #age{
+            border: none;
+            background-color: #e7e7e7;
+            padding: 5px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <!-- <form class="container" style="border: 1px solid #e7e7e7">
+     
+        <input type="number" required  placeholder="Age" id="age" name=""age />
+        <button class="btn" id="rahul">Submit</button>
+
+    </form> -->
+
+
+    <!-- Inline js -->
+     <!-- This is not the good way to write js thsi mix up the whole code like html css js -->
+    <!-- <span class="container" 
+     
+    onClick="console.log('hello world'); 
+    let a = 20,b= 30;
+    console.log(a+b);
+    
+    ">Span element</span> -->
+
+
+
+    <!-- <span class="container" 
+     
+    onClick="printName()"
+    >Span element</span> -->
+
+<!-- 
+    <input  type="text" name="username" id="ankush" placeholder="User Name" class="abc xyz" >
+    
+    <a href="https://google.com/home" id="link"><h1>Google</h1> Home Page</a>
+    
+    <a href="https://acciojob.com/" class="test">Acciojob</a>
+    <button class="test" onclick="changePlaceHolder()">Click me</button>
+    
+    
+    <div id="container">
+        <button class="test">Test Button</button>
+        <span id="child">Child Text</span>
+        
+    </div>
+    
+    <Button class="testE">Outer Button</Button> -->
+    
+<!-- Ex-> 2 -->
+<!-- // password hide show functionality -->
+    <input type="password"  id="ankush" required  placeholder="password" id="age" name=""age />
+    <button id="toggle" onclick="togglePassword()" type="password">Show</button>
+
+
+
+
+
+
+<!-- 3. Create a new node or html element -->
+
+
+    <div id="container">
+        <button onClick="showUsers()">Show users</button>
+        <div class="users">
+                                                <!-- <div>Ankush</div>
+                                                <div>Rajesh</div>
+                                                <div>Akhil</div> -->
+        </div>
+
+    </div>
+
+
+
+<!-- //  add between  -->
+       
+<!-- // task is container me span se phle ->   <h1>Arvind</h1>  ye element add krna h-->  
+
+    <div id="container"></div>
+        <button onClick="showUsers()">Show users</button>
+        <!-- <h1>Arvind</h1> -->
+        <span>Span element</span>
+        <div class="users"></div>
+        <b>Bold element</b>
+    </div>
+
+    <button onClick="insertBeforeSpan()">Insert Before</button>
+
+
+
+    <!-- // 4. Delete an existing node    -->
+
+    <!--  hamne bold elemnt ko delete krna h -->
+
+    <Button onClick="removeElement()">Remove users</Button>
+
+
+
+    <!-- 
+      a 
+      {
+         tagName: "A"
+         href: "https://google.com/home",
+         innerText: "Google Home Page"
+      }
+
+    -->
+
+
+    <!-- // How html elemet look like in objects -->
+    <!--
+
+    form : 
+    {
+       tagName; "form",
+       id; "",
+       action; "",
+       method; "post",
+       className: "container",
+       style: {
+         border: "1px solid #e7e7e7",
+         padding: "20px",
+         border-radius: "10px"
+       },
+       children: [
+                    {
+                        tagName; "input",
+                        id; "age",
+                        value; "",
+                        type; "number",
+                        required; true,
+                        placeholder; "Age"
+                    },
+                    {
+                        tagName; "button",
+                        id; "rahul",
+                        innerText; "Submit"
+                    }
+                 ]
+    }
+
+      input:
+     {
+
+         tagName; "input",
+         id; "age",
+         value; "",
+         type; "number",
+         required; true,
+         placeholder; "Age"
+         children: []
+
+
+      } 
+    button: 
+       {
+        tagName; "button",
+        id; "rahul",
+        innerText; "Submit",
+        children: []
+        
+        }  
+         
+    -->
+
+
+<body>
+    
+    <script src="./introduction.js"></script>
+</body>
+</html>

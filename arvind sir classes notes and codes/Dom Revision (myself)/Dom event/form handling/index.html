@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+<!-- Form ke sath buy default onsubmit event attached hota h jo ki submit hone pr apne ap trigger hota h -->
+<!-- by default form ka button submit ka behave krege agar ham iska type define kr dega tab ye us trah behave krege jo hamne define kiya h -->
+    <form id="form">
+       <h2>LinkedIn post</h2>
+       <input type="text" name="title" required placeholder="Title of the post" />
+       <textarea 
+        type="text" 
+        required 
+        placeholder="description"
+        name="description"
+        rows="3"
+        cols="30"
+       ></textarea>
+
+       <div>
+            <label for="public">Make this post public</label>
+            <input type="checkbox" name="isPublic" id="public">
+       </div>
+
+       <div>
+          <label for="comments-disabled">disabled Comments</label>
+          <input type="checkbox" name="isCommentsDisabled"/>
+       </div>
+       <button>Post</button>
+
+    </form>
+
+    <button id="btn">Click me show event object</button>
+
+
+    <br>
+    <hr>
+    <h1>Searching functionality</h1>
+
+    <input type="text" id="search-input" placeholder="Search Name...">
+
+    <br>
+    <hr>
+    <h1>Keyboard events</h1>
+    
+    <input type="text" id="keyboard" placeholder="Press enter any key">
+ <br>
+    <hr>
+    <br>
+
+    <!-- Example of keyboard events(usecase) -->
+
+    <textarea  id="code" cols="30" rows="10"></textarea>
+
+
+
+
+
+    <script src="./form-handling.js"></script>
+</body>
+</html>
